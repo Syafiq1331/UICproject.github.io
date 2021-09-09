@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav.nav-custom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-custom-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.heading, .p-kedua{
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+.nav-custom-link a{
+    color: #4895D6;
+    text-decoration: none;
+}
+
+.mt-124{
+    margin-top: 30px;
+}
+
+h1.heading{
+    color: #171717;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+p.p-kedua{
+    color: #4895D6;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.intro-text h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2D3748;
+}
+
+.intro-img img{
+    padding-left: 15%;
+    width: max-content;
+    height: max-content;
+}
+
+.card-body{
+    border-left: 20%;
+}
+
+.card-body h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-text{
+    color: #718096;
+    font-size: 14px;
+}
+.flex-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-container p{
+    color: #718096;
+    font-size: 12px;
+}
+
+.flex-container button{
+    margin-left: 160px;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 12px;
+}
+.card-last{
+    background: #F7FAFC;
+    border: none !important;
+}
+.con-last h3{
+    font-family: 'inter', sans-serif;
+    margin-top: 98px;
+    margin-left: 63px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.con-last p{
+    margin-top: 24px;
+    margin-left: 63px;
+    color: #718096;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'inter', sans-serif;
+    
+}
+
+.last p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4A5568;
+}
+
+.last button{
+    margin-top: 31px;
+    margin-left: 152px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.last-img img{
+    height: 500px;
+    width: 525px;
+
+
+}
+footer h5{
+    text-align: center;
+    margin-top: 152px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.custom-btn{
+    margin-right: 465px;
+    margin-top: 20px;
+}
