@@ -17,7 +17,7 @@
     width: 70%;
     height: 80%;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .heading, .p-kedua {
@@ -149,8 +149,8 @@ footer h5{
     margin-right:120px;
     margin-top: 10px;
 }
-/*
-@media screen and (min-width: 450px) {
+
+@media screen and (max-width: 450px) {
     h1.heading{
         font-size: 30px;
         font-weight: 800px;
@@ -160,4 +160,4 @@ footer h5{
     p.p-kedua{
         margin-left: 30px;
     }
-}/*
+}
