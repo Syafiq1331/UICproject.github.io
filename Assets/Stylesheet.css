@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-nav.nav-custom{
+/*nav.nav-custom{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,16 +19,15 @@ nav.nav-custom{
     display: flex;
     justify-content: space-between;
     width: 30%;
+}*/
+
+.nav-customHref{
+    font-family: 'roboto', sans-serif;
 }
 
 .heading, .p-kedua{
     margin-left: 30%;
     margin-top: 20%;
-}
-
-.nav-custom-link a{
-    color: #4895D6;
-    text-decoration: none;
 }
 
 .mt-124{
@@ -162,4 +161,8 @@ footer h5{
 .custom-btn-last{
     margin-right:120px;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 450px) {
+    
 }
